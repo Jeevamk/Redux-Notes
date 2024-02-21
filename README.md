@@ -32,4 +32,14 @@ we can think reducers has a event listners which handle the events based on rece
 5) Store : The current redux application state lives in a object called store.<br>
 6) Dispatch : The redux store has a method called dispatch.<br>
 - It is the only way to update the state is to call store.dispatch() and pass in a action object.<br>
-- It act like triggering a event.
+- It act like triggering a event.<br>
+7) Selectors : Selectors are functions that know how to extract specific pieces of information from a store state value. As an application grows bigger, this can help avoid repeating logic as different parts of the app need to read the same data.
+
+# Data flow
+- State describe a condition of a app at a specific point in a time.<br>
+- The UI is rendered based on the state.<br>
+- When something happens (such as a user clicking a button), the state is updated based on what occurred.<br>
+- The UI re-renders based on the new state.<br>
+
+<b>Detail</b>
+
