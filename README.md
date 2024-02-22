@@ -41,5 +41,5 @@ we can think reducers has a event listners which handle the events based on rece
 - When something happens (such as a user clicking a button), the state is updated based on what occurred.<br>
 - The UI re-renders based on the new state.<br>
 
-<b>Detail</b>
-
+# slice
+-A "slice" is a collection of Redux reducer logic and actions for a single feature in your app, typically defined together in a single file. The name comes from splitting up the root Redux state object into multiple "slices" of state.
