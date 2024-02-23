@@ -22,7 +22,7 @@
 3) Redux Devtools extensions : It shows the history of changes to the state of your redux store over time.It allows you to dubug 
    the application effectivly. 
 
-# Terms:
+# Terms of redux:
 1) Action : Action is a plane javascript object that has a <b>type</b>( type field should be a string that gives this action a descriptive name) field. You can think of a action as a event that describes something that happened in application.<bR>
 2) Payload : An action object can have other fields with additional information about what happened. By convention, we put that information in a field called payload.<br>
 3) Action creator  : It is a function that creates and return a action object. <br>
