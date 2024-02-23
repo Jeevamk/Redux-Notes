@@ -1,6 +1,6 @@
 # `Redux Notes`
 <hr>
-# what is redux?
+# What is redux?
 - Redux is a pattern and library for managing and updating  application state , using events called 'actions'. <br>
 - It serve as a centralized store for state that need to be used across the  entire the application.<hr>
 
@@ -42,4 +42,4 @@ we can think reducers has a event listners which handle the events based on rece
 - The UI re-renders based on the new state.<br>
 
 # slice
--A "slice" is a collection of Redux reducer logic and actions for a single feature in your app, typically defined together in a single file. The name comes from splitting up the root Redux state object into multiple "slices" of state.
+- A "slice" is a collection of Redux reducer logic and actions for a single feature in your app, typically defined together in a single file. The name comes from splitting up the root Redux state object into multiple "slices" of state.
