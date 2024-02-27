@@ -63,11 +63,14 @@ we can think reducers has a event listners which handle the events based on rece
 - a thunk function
    * initially dispatches an action to say the request started then
    * waits for the ajax call to return and then dispatches another action (either success or failure)
-- the reducer only processes dispatched objects (actions)
-- the thunk middleware processes dispatched functions (thunks)
-- both actions and thunks are created by action creator functions
-- the results of creators are passed to dispatch
-- there is no distinction between action creators and thunk creators
-- thunk creators often end up in an actions file and look just like an action creator
+- the reducer only processes dispatched objects (actions) <br>
+- the thunk middleware processes dispatched functions (thunks) <br>
+- both actions and thunks are created by action creator functions <br>
+- the results of creators are passed to dispatch <br>
+- there is no distinction between action creators and thunk creators <br>
+- thunk creators often end up in an actions file and look just like an action creator <br>
+
+  # Boilerplates 
+- It refers to repititive code or structure that needs to written set up like basic functionality.<br>
  
 
