@@ -43,3 +43,18 @@ we can think reducers has a event listners which handle the events based on rece
 
 # slice
 - A "slice" is a collection of Redux reducer logic and actions for a single feature in your app, typically defined together in a single file. The name comes from splitting up the root Redux state object into multiple "slices" of state.
+
+# Redux thunk
+- It is a library/package.<br>
+- enables async actions.<br>
+- Implimented as middleware.
+
+# async actions
+- Actions are normally dispathes a object.<br>
+- Redux Thunk allows actions to return functions. <br>
+- the dispatched function is called a thunk. <br>
+- async is handled by creating a pair of actions
+     * one to start the request
+     * one to handle the complete response (success or failure)
+ 
+
