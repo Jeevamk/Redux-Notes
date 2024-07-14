@@ -17,8 +17,7 @@
 
 # React Libraries & Tools:
 1) React-Redux : It is a package that react component interact with redux store by reading piece of state and dispatching an action to update the store.<br>
-2) Redux-Toolkit : It a recommended approach to write redux logic.It contain functions and packages that are essential for build  
-  a redux app.<br>
+2) Redux-Toolkit : It a recommended approach to write redux logic.It contain functions and packages that are essential for build a redux app.<br>
 3) Redux Devtools extensions : It shows the history of changes to the state of your redux store over time.It allows you to dubug 
    the application effectivly. 
 
